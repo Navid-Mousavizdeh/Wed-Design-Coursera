@@ -1,0 +1,71 @@
+/*** Base Style ***/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	text-align: center;
+	margin: 40px 0px 40px 0px;
+}
+.row {
+	width: 100%;
+}
+.main-section {
+	width: 95%;
+	margin: 10px auto 10px auto;
+	background-color: #E2E0E5;
+	border: 4px dashed #FE5E54;
+}
+.title-section {
+	width: 50%;
+	float: right;
+	border: 2px solid #FCD200;
+	text-align: center;
+	padding: 10px;
+}
+#title1 {
+	background-color: #00C9B8;
+}
+#title2 {
+	background-color: #36008D;
+	color: white;
+}
+#title3 {
+	background-color: #FFB3C1;
+}
+.main-section p {
+	clear: right;
+	margin: 0 10px 0 10px;
+}
+/*** Setting Columns Width For Large Screens (Desktop) ***/
+@media (min-width: 992px) {
+
+	.col-lg-4 , .col-lg-6 , .col-lg-12 {
+		float: left;
+	}
+	.col-lg-4 {
+		width: 33.333%;
+	}
+	.col-lg-6 {
+		width: 50%;
+	}
+	.col-lg-12 {
+		width: 100%;
+	}
+}
+/*** Setting Columns Width For Medium Screens (Tablet) ***/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-4 , .col-md-6 , .col-md-12 {
+		float: left;
+	}
+	.col-md-4 {
+		width: 33%;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+}
