@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+#nav-brand-text {
+	text-decoration: none;
+}
+.content-secsion {
+	margin: 10px;
+	border: 2px solid red;
+}
+
+.content-secsion p {
+	padding: 20px;
+}
+.content-secsion .section-title {
+	padding: 20px;
+}
